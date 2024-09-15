@@ -68,7 +68,6 @@ body {
 .hands-box .hours {
     width: 320px;
     height: 320px;
-    border: 2px solid red;
 }
 
 .hands-box .hours i {
@@ -82,7 +81,6 @@ body {
 .hands-box .minutes {
     width: 450px;
     height: 450px;
-    border: 2px solid yellow;
 }
 
 .hands-box .minutes i {
@@ -96,7 +94,6 @@ body {
 .hands-box .seconds {
     width: 480px;
     height: 480px;
-    border: 2px solid white;
 }
 
 .hands-box .seconds i {
