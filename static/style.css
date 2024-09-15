@@ -21,6 +21,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: colorful 30s linear infinite;
+}
+
+@keyframes colorful {
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 .bar-seconds,
@@ -154,3 +161,9 @@ body {
     background: white;
     box-shadow: none;
 }
+
+
+
+
+
+/* END */
