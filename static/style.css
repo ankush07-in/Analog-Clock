@@ -44,6 +44,16 @@ body {
     width: 2px;
     height: 12px;
     background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 10px #0ef;
+}
+
+/* 5n = every multiple of 5 */
+.bar-seconds span:nth-child(5n) p {
+    background: yellow;
+    width: 6px;
+    height: 18px;
+    transform: translateY(1px);
 }
 
 .number-hours span {
